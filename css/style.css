@@ -74,12 +74,12 @@ body{
 .glitch:after {
   color: #f0f;
   z-index: -2;
-  animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 10000;  
+  animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;  
 }
 .glitch:before {
   color: #0ff;
   z-index: -1;
-  animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 10000;
+  animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
 }
 
 .glitch:active {
@@ -88,10 +88,10 @@ body{
 }
 
 .glitch:active:before {
-  animation: glitch2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 50000;
+  animation: glitch2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
 }
 .glitch:active:after {
-  animation: glitch2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5000;
+  animation: glitch2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
 }
 @media only screen and (max-width: 400px) {
   .glitch {
