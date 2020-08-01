@@ -83,7 +83,7 @@ body{
 }
 
 .glitch:active {
-  font-size: 63.125em;
+  font-size: 32vw;
   transform: translate(-50%, -50%);
 }
 
